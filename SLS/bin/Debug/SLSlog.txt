@@ -1,0 +1,18 @@
+[2016-03-09 22:21:38:71]: Inital Connection pool Done!
+[2016-03-09 22:21:38:83]: One connection was applied for from Connection pool! Remain 9 connections
+[2016-03-09 22:21:38:85]: One connection was applied for from Connection pool! Remain 8 connections
+[2016-03-09 22:21:38:85]: Start Load case followUps
+[2016-03-09 22:21:38:113]: One connection was released to Connection pool! Remain 9 connections
+[2016-03-09 22:21:38:113]: One connection was applied for from Connection pool! Remain 8 connections
+[2016-03-09 22:21:38:113]: Start Load case Hints
+[2016-03-09 22:21:38:126]: Load case hints done!
+[2016-03-09 22:21:38:126]: One connection was released to Connection pool! Remain 9 connections
+[2016-03-09 22:21:38:127]: One connection was applied for from Connection pool! Remain 8 connections
+[2016-03-09 22:21:38:128]: Error>System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at SLS.Server.MapUserIDToName(Object obj) in C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\Server.cs:line 80
+[2016-03-09 22:21:38:132]: One connection was released to Connection pool! Remain 9 connections
+[2016-03-09 22:21:38:203]: Load followUps done!
+[2016-03-09 22:21:38:203]: One connection was released to Connection pool! Remain 10 connections

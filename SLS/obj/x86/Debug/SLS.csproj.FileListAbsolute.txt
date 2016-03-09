@@ -1,0 +1,64 @@
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.Form1.resources
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\bin\Debug\SLS.exe
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\bin\Debug\SLS.pdb
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.exe
+c:\users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\documents\visual studio 2010\Projects\SLS\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.exe
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\XPS 12\Desktop\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\XPS 12\Desktop\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\XPS 12\Desktop\SLS\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Desktop\SLS\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Desktop\SLS\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Desktop\SLS\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.1\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.2\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.3\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.4\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\bin\Debug\SLS.exe
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\bin\Debug\SLS.pdb
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.csprojResolveAssemblyReference.cache
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.Form1.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.Properties.Resources.resources
+C:\Users\ianzou\Documents\Visual Studio 2010\Projects\SLS_1.1.5\SLS\obj\x86\Debug\SLS.csproj.GenerateResource.Cache
