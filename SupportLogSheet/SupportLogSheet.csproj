@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6C8FD7D-56E4-4FF0-A68A-B55ABCC52290}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SupportLogSheet</RootNamespace>
+    <AssemblyName>SupportLogSheet</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ListViewNF.cs</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4D6C16624C824699496726353FD3AD4E39D868B7</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SupportLogSheet_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActClientServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActClientServer.Designer.cs">
+      <DependentUpon>ActClientServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActAM.Designer.cs">
+      <DependentUpon>ActAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActProduct.Designer.cs">
+      <DependentUpon>ActProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActProductHints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActProductHints.Designer.cs">
+      <DependentUpon>ActProductHints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaseAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaseAnalysis.Designer.cs">
+      <DependentUpon>CaseAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Combo_OP.cs" />
+    <Compile Include="DataGridViewNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DeployProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeployProduct.Designer.cs">
+      <DependentUpon>DeployProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActClientProductInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActClientProductInfo.Designer.cs">
+      <DependentUpon>ActClientProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActClientProduct_UpdateInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActClientProduct_UpdateInfo.Designer.cs">
+      <DependentUpon>ActClientProduct_UpdateInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DGV_Op.cs" />
+    <Compile Include="INI_OP.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Msg_OP.cs" />
+    <Compile Include="ListViewItemsComparer.cs" />
+    <Compile Include="Custom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Custom.Designer.cs">
+      <DependentUpon>Custom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LV_OP.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Config.cs" />
+    <Compile Include="MarkedCaseContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkedCaseContent.Designer.cs">
+      <DependentUpon>MarkedCaseContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarkedCaseOverView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkedCaseOverView.Designer.cs">
+      <DependentUpon>MarkedCaseOverView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs" />
+    <Compile Include="MutiFilterProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MutiFilterProduct.Designer.cs">
+      <DependentUpon>MutiFilterProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyInfo.cs" />
+    <Compile Include="MarkedCases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarkedCases.Designer.cs">
+      <DependentUpon>MarkedCases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActCase.Designer.cs">
+      <DependentUpon>ActCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActClientContact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActClientContact.Designer.cs">
+      <DependentUpon>ActClientContact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PM_Analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PM_Analysis.Designer.cs">
+      <DependentUpon>PM_Analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductHints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductHints.Designer.cs">
+      <DependentUpon>ProductHints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductMaster.Designer.cs">
+      <DependentUpon>ProductMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reminder.Designer.cs">
+      <DependentUpon>Reminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reminder_OP.cs" />
+    <Compile Include="SLSocket.cs" />
+    <Compile Include="SQL.cs" />
+    <Compile Include="Statistic_Graphic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistic_Graphic.Designer.cs">
+      <DependentUpon>Statistic_Graphic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperUser.Designer.cs">
+      <DependentUpon>SuperUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActClient.Designer.cs">
+      <DependentUpon>ActClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActUser_BySuperUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActUser_BySuperUser.Designer.cs">
+      <DependentUpon>ActUser_BySuperUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShortCutKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShortCutKey.Designer.cs">
+      <DependentUpon>ShortCutKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MultiFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiFilter.Designer.cs">
+      <DependentUpon>MultiFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="MarkedCase_OP.cs" />
+    <EmbeddedResource Include="ActClientServer.resx">
+      <DependentUpon>ActClientServer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActAM.resx">
+      <DependentUpon>ActAM.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActProduct.resx">
+      <DependentUpon>ActProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActProductHints.resx">
+      <DependentUpon>ActProductHints.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaseAnalysis.resx">
+      <DependentUpon>CaseAnalysis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom.resx">
+      <DependentUpon>Custom.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeployProduct.resx">
+      <DependentUpon>DeployProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActClientProductInfo.resx">
+      <DependentUpon>ActClientProductInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActClientProduct_UpdateInfo.resx">
+      <DependentUpon>ActClientProduct_UpdateInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkedCaseContent.resx">
+      <DependentUpon>MarkedCaseContent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkedCaseOverView.resx">
+      <DependentUpon>MarkedCaseOverView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MutiFilterProduct.resx">
+      <DependentUpon>MutiFilterProduct.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarkedCases.resx">
+      <DependentUpon>MarkedCases.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActCase.resx">
+      <DependentUpon>ActCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActClientContact.resx">
+      <DependentUpon>ActClientContact.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PM_Analysis.resx">
+      <DependentUpon>PM_Analysis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductHints.resx">
+      <DependentUpon>ProductHints.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductMaster.resx">
+      <DependentUpon>ProductMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reminder.resx">
+      <DependentUpon>Reminder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistic_Graphic.resx">
+      <DependentUpon>Statistic_Graphic.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperUser.resx">
+      <DependentUpon>SuperUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActClient.resx">
+      <DependentUpon>ActClient.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActUser_BySuperUser.resx">
+      <DependentUpon>ActUser_BySuperUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShortCutKey.resx">
+      <DependentUpon>ShortCutKey.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiFilter.resx">
+      <DependentUpon>MultiFilter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SupportLogSheet_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14882-1063.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MarkedCaseConfig.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
